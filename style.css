@@ -640,6 +640,10 @@
     border-color: #090326;
     margin-top: 30px;
 }
+.accordion-item >.accordion-header .accordion-button {
+    border: none !important;
+    padding-left: 0px;
+}
 .accordion-item:first-of-type>.accordion-header .accordion-button{
     border: none !important;
 }
@@ -678,6 +682,7 @@
     font-weight: 500;
     line-height: 26px;
     color: rgba(255, 255, 255, 0.8);
+    padding-left: 0px !important;
 }
 /* SQI ENQUIRY END HERE */
 /* SQI JOIN LINK START HERE */
