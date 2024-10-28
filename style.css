@@ -29,7 +29,7 @@
 }
 .navbar-nav{
     gap: 15px;
-    margin-left: 90px;
+    
 }
 .nav-item > a{
     font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
@@ -1745,6 +1745,11 @@
     }
 }
 @media screen and (max-width:430px){
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        /* margin-left: 0px !important; */
+        margin-right: 30px;
+    }
     .img {
         height: 50px;
         margin-left: -25px;
@@ -1893,6 +1898,9 @@
     .accordion-body {
         font-size: 13px;
         line-height: 22px;
+    }
+    .accordion-item .accordion-header .accordion-button{
+        margin-left: 0px !important;
     }
     .sqi-question > a{
         font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
