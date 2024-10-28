@@ -1,0 +1,2160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 13vh;
+    width: 100%;
+    border-bottom: 1px solid #E5E4DE;
+    border-width: 100%;
+    background-color: #FFFFFF;
+    position: fixed !important;
+    z-index: 100;
+}
+/* .navbar-toggler {
+    background-color: none !important;
+    margin-top: -10px !important;
+ } */
+.container-fluid{
+    /* display: flex !important; */
+    /* justify-content: space-between !important; */
+    gap: 30rem;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    gap: 50px;
+}
+.navbar-brand{
+    margin-left: 130px;
+}
+.navbar-nav{
+    gap: 15px;
+    margin-left: 90px;
+}
+.nav-item > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5262AC;
+}
+.dropdown-links > li > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 38px;
+    width: 200px;
+}
+/* .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item{
+    width: 10VW ;
+} */
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-top: 21px;
+    padding-left: 20px;
+    border: none;
+    border-top: 3px solid black;
+    border-radius: 0%;
+    width: 18vw;
+    background-color: #fffefdb2;
+}
+.dropdown-menu li li a{
+    width: 200px;
+}
+/* .nav-item.dropdown:hover .dropdown-menu{
+    display: none;
+}
+.nav-item.dropdown .dropdown-toggle::after{
+    display: none;
+} */
+ /* NAVBAR SECTION END HERE */
+ /* MAIN PAGE START HERE */
+
+ /* LEARNING PAGE START HERE */
+.main-section{
+    position: relative;
+}
+.learning-page{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+/* .learning-page > img{
+    height: 100vh;
+    width: 100%;
+} */
+.learning-paragraph{
+    width: 38%;
+    margin-top: 80px;
+}
+.learning-paragraph > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000E42;
+}
+.learning-paragraph > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.699);
+    width: 40vw;
+}
+.learning-paragraph > a{
+    display: inline;
+    padding: 19px 30px;
+    background-color: #00208A;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 98px;
+}
+/* LEARNING PAGE END HERE */
+/* LEARN MORE PAGE START HERE */
+.learnMore-page{
+    padding-left: 140px;
+    margin-top: 50px;
+    z-index: 2px;
+}
+.learnMore-page > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #050754;
+}
+.learnMore-menu{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.learnMore-item{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learnMore-item > img{
+    filter: grayscale(100%);
+    z-index: 2px;
+}
+.learnMore-item > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #050754;
+    line-height: 28px;
+}
+.learnMore-item > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgb(102, 102, 102);
+}
+.learnMore-item > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgb(38, 54, 78);
+    text-decoration: none;
+    position: relative;
+}
+.learnMore-item > a::after{
+    content: "";
+    display: inline-block;
+    width: 90px;
+    height: 2px;
+    background-color: #26364E;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+/* LEARN MORE PAGE END HERE */
+/* COURSE PAGE START HERE */
+.course-page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+    gap: 65px;
+}
+.course-menu{
+    width: 23vw;
+}
+.course-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.course-menu > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.course-details > div > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(102, 102, 102);
+    border-bottom: 1px solid #2EA3F2;
+}
+.course-details > div >p:nth-child(7n){
+    border: none;
+}
+/* .course-details > div > p > strong{
+    color: black;
+} */
+/* COURSE PAGE START HERE */
+/* COURSE DISCRIPTION START HERE */
+.course-discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 70px;
+}
+.courseContainer{
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.softWare-discription{
+    background-color: #D5EAF3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 15px #d5eaf3c7;
+}
+.design-discription{
+    background-color: #E0D5C0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 20px #d5eaf3c7;
+}
+.Analysis-discription{
+    background-color: #EEEFBD;
+    border-radius: 20PX;
+    box-shadow: 5px -5px 25px 15px #FFDFDA;
+    border: 1px solid black;
+}
+.Digital-discription{
+    background-color: #DFD5E8;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px 15px #FFDFDA;
+    border: 1px solid black;
+}
+.firstCourse-discriptionBox > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.firstCourse-discriptionBox > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(102, 102, 102);
+}
+.firstCourse-discriptionBox > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #00208A;
+}
+.firstCourse-discriptionBox > a:hover{
+    color: rgb(224, 97, 0);
+}
+#firstCourse-discriptionBox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.secondCourse-discriptionBox{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.courseBox{
+    width: 29vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.courseBox > img{
+    border-radius: 10px;
+}
+.courseBox > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+}
+.courseBox > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+.courseBox > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #00208A;
+}
+.courseBox > a:hover{
+    color: rgb(224, 97, 0);
+}
+/* COURSE DISCRIPTION START HERE */
+/* ALUMNI PAGE START HERE */
+.alumniBox{
+    margin: 260px 0px 0px 140px;
+}
+.alumniBox > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 40vw;
+}
+.alumniImage{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 0px;
+    gap: 60px;
+}
+.alumniImage > img{
+    margin: 0px 0px 0px 40px;
+}
+/* ALUMNI PAGE START HERE */
+/* COLLEGE TOUR START HERE */
+.collegeTour-box{
+    background-image: linear-gradient(120deg, rgba(0, 4, 66, 0) 0%, #000442 70%), url("./IMAGES/DSC_9054-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 80px; */
+    gap: 65px;
+    padding-left: 40px;
+    background-color: #000442;
+    margin-top: 80px;
+}
+.collegeTour-box > iframe{
+    border-radius: 20px;
+}
+.collegeTour-paragrph > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: rgb(255, 255, 255);
+}
+.collegeTour-paragrph > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    width: 48vw;
+}
+.collegeTour-paragrph > a{
+    display: inline;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    background-color: #00208A;
+    padding: 17px 25px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+}
+/* COLLEGE TOUR END HERE */
+.testimonial-container{
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.testimonial-container > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58PX;
+}
+.testimonial-container > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+.college-rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50vw; */
+}
+.college-rate > a{
+    text-decoration: none;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: black;
+    text-align: center;
+    width: 17vw;
+}
+.collegeRate-button{
+    display: inline;
+    align-items: center;
+    padding: 7px 14px;
+    border-radius: 25px;
+    background-color: #1F67E7;
+    width: 15vw;
+    height: 5vh;
+    margin-top: 15px;
+}
+.college-rate > a{
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.star-number{
+    font-size: 23px;
+    font-weight: 600;
+}
+.collegeRate-button > a > span{
+    color: #FFFFFF;
+}
+.star-rating{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #FB8E28;
+    unicode-bidi: bidi-override;
+}
+.full-star{
+    color: #FB8E28;
+}
+.half-star{
+    position: relative;
+    display: inline-block;
+    color: #E5E4DE;
+}
+.half-star::after{
+    content: "★";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #FB8E28;
+}
+.swiper-slide{
+    display: flex !important;
+    flex-direction: column;
+}
+.swiper-wrapper{
+    width: 43vw !important;
+    display: flex !important;
+    align-items: center;
+    gap: 20px !important;
+    margin-right: 50px;
+}
+.swiper{
+    margin-left: 50px !important;
+    overflow: hidden;
+}
+.swiper-backface-hidden .swiper-slide{
+    width: 20vw !important;
+    margin-right: 30px;
+}
+.testimonialImage{
+    display: flex;
+    gap: 10px;
+}
+.google{
+    width: 25px;
+    height: 25px;
+    margin-left: 60px;
+}
+.testimonial{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    width: 20vw;
+}
+.testimonial-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.testimonial-name > p{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+}
+.testimonial-name > span{
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide > p{
+    width: 21vw;
+    overflow-x: auto;
+    height: 20vh;
+}
+/* SQI REASON TO STUDY START HERE*/
+.moreSqi-detailsBox{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.moreSqi-detailsBox > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.moreSqi-itemsBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.moreSqi-items{
+    width: 24vw;
+}
+.moreSqi-items > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.moreSqi-items > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgb(102, 102, 102);
+}
+.learnMore-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+.learnMore-container > img{
+    margin-right: 140px;
+}
+/* SQI REASON TO STUDY START HERE */
+/* SQI ENQUIRY START HERE */
+.sqi-enquiryContaiter{
+    background-color: #090326 !important;
+    display: flex;
+    padding: 80px 0px 80px 140px;
+    margin-top: 50px;
+    gap: 200px;
+}
+.sqi-question > h2{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color:  rgb(255, 255, 255);
+}
+.sqi-question > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 47px;
+    color:  rgb(255, 255, 255);
+    width: 25vw;
+}
+.sqi-question > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 94px;
+    text-decoration: none;
+    color: rgb(208, 167, 63);
+    position: relative;
+}
+.sqi-question > a::after{
+    content: "";
+    display: inline-block;
+    width: 110px;
+    height: 2px;
+    background-color: rgb(208, 167, 63);
+    position: relative;
+    top: 17px;
+    right: 110px;
+}
+.accordion-button::after{
+    content: none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: #090326 !important;
+    box-shadow: none !important;
+}
+.accordion{
+    width: 40vw;
+}
+/* .accordion-body{
+    width: 35vw !important;
+} */
+.accordion-item{
+    background-color: #090326 !important;
+    border: none !important;
+}
+.accordion-item >.accordion-header .accordion-button.collapsed{
+    padding-left: 0px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    background-color: #090326;
+    border-color: #090326;
+    margin-top: 30px;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    border: none !important;
+}
+.accordion-header > button{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px !important;
+    color: rgb(211, 155, 0) !important;
+    /* margin-bottom: 20px; */
+}
+.accordion-button{
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-item{
+    justify-content: flex-start !important;
+    border-bottom: 2px solid #D39B00 !important;
+}
+/* .accordion-header > button::after{
+    content: "" !important;
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    background-color: #D39B00;
+    position: relative;
+    top: 30px;
+    right: 300px;
+} */
+.accordion-button.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.accordion-body{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* SQI ENQUIRY END HERE */
+/* SQI JOIN LINK START HERE */
+.joinLink-box{
+    padding: 80px 0px 120px 140px;
+    background-color: #000B3F;
+}
+.joinLink-box > h4{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.joinLink-box > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.joinLink-box > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 37vw;
+}
+.joinLink-box > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #FFFFFF;
+    display: inline;
+    padding: 15px 20px;
+    background-color: #00208A;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+/* SQI JOIN LINK END HERE */
+/* SQI NEWS START HERE */
+.sqiNews-container{
+    background-color: #F0F1FF;
+}
+.news-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    gap: 45rem;
+}
+.news-header > h2{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.news-header > a{
+    display: inline;
+    padding: 15px 20px;
+    background-color: #00208A;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+.news-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 180px;
+}
+.news-items{
+    background-color: #FFFFFF;
+}
+.newsItems-text{
+    width: 23.5vw;
+    padding-left: 20px;
+}
+.newsItems-text > h1{
+    font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 30px;
+}
+.newsItems-text > span{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(247, 130, 126);
+}
+.newsItems-text > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(102, 102, 102);
+}
+/* SQI NEWS END HERE */
+/* BRANCH CONTACT DETAILS START HERE */
+.branchContact-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding-top: 80px;
+}
+.sqiMedia-link{
+    width: 15vw;
+}
+.sqiMedia-link > h2{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(0, 32, 138);
+}
+.sqiMedia-link > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.media-icon{
+    display: flex;
+    gap: 20px;
+}
+.media-icon > a > i{
+    font-size: 15px;
+    font-weight: 500;
+    color: #666666 !important;
+    line-height: 40px;
+}
+.sqiMedia-link > span{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+}
+.sqiMedia-link > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none !important;
+}
+.sqiQuick-link > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 25px;
+}
+.sqiQuick-link > a{
+    text-decoration: none !important;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: rgb(102, 102, 102);
+}
+.sqiOgbomoso-contact{
+    width: 14vw;
+}
+.sqiOgbomoso-contact > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 25px;
+}
+.sqiOgbomoso-contact > div > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #666666;
+}
+.sqiOgbomoso-contact > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #666666;
+}
+.sqiOgbomoso-contact > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none !important;
+}
+.sqiIbadan-contact{
+    width: 12.5vw;
+}
+.sqiIbadan-contact > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 25px;
+}
+.sqiIbadan-contactItems > div > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #666666;
+}
+.sqiIbadan-contactItems > div{
+    margin-top: 30px;
+}
+.sqiIbadan-contactItems > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #666666;
+}
+.sqiIbadan-contactItems > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none !important;
+    padding-bottom: 20px;
+}
+.sqiAbeokuta-contact{
+    width: 13vw;
+}
+.bothOshogbo-abeokutaContact > div > h1{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 25px;
+}
+.bothOshogbo-abeokutaContact > div > div > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #666666;
+}
+.bothOshogbo-abeokutaContact > div > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #666666;
+}
+.bothOshogbo-abeokutaContact > div > a{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none !important;
+}
+.sqiAbeokuta-contact, .sqiOsogbo-contact{
+    width: 12vw;
+}
+.sqiOsogbo-contact{
+    margin-top: 30px;
+}
+.footer-copyright{
+    height: 6vh;
+    background-color: #050044;
+    margin-top: 60px;
+}
+.footer-copyright > p{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    /* line-height: 22px; */
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-left: 140px;
+}
+/* BRANCH CONTACT DETAILS END HERE */
+.moveableIcon{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 17rem;
+}
+.moveableIcon > a{
+    text-decoration: none;
+}
+.moveableIcon > a:hover{
+    transform: rotateY(40deg);
+    transition-duration: 0.45s;
+    background-color: #000B3F;
+}
+.facebook{
+    background-color: #050044;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 19px;
+}
+.twitter{
+    background-color: #2EA3F2;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 19px;
+}
+.linkedin{
+    background-color: #1F67E7;
+    width: 50px;
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 18px;
+}
+.moveable-whatsapp{
+    position: fixed;
+    bottom: 1rem;
+}
+.moveable-whatsapp > div > a{
+    text-decoration: none;
+}
+.whatsapp-items{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 15px;
+}
+.whatsapp-items > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #F5F7F9;
+    padding: 10px;
+    margin-top: 20px;
+    color: #43474E;
+}
+.whatsapp-items > p > span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.moveable-backTotop{
+    background-color: #1F67E7;
+    width: 50px;
+    height: 50px;
+    padding: 15px 17px;
+    border-radius: 50px;
+    position: fixed;
+    display: flex;
+    left: 79rem;
+    bottom: 2rem;
+}
+.moveable-backTotop:hover{
+    background-color: #00208A;
+    transform: translateY(-2px);
+}
+/* @media (min-width:1536px){
+    
+}
+@media (min-width:1280px){
+    
+} */
+@media screen and (max-width:1024px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 13px;
+    }
+    .learning-paragraph {
+        width: 33vw;
+        margin-left: 0px;
+    }
+    .learning-paragraph > h1{
+        font-size: 60px;
+    }
+    .learning-page{
+        gap: 95px;
+    }
+    .learning-page > img {
+        width: 386px;
+        height: 379px;
+        margin-top: -170px;
+    }
+    .learning-paragraph {
+        width: 33vw;
+    }
+    .learnMore-page{
+        margin-left: -40px;
+        padding-top: 50px;
+    }
+    .learnMore-item > img {
+        width: 100%;
+        height: 35vh;
+    }
+    .firstCourse-discriptionBox > h1{
+        width: 30vw;
+    }
+    .course-page{
+        gap: 58px;
+    }
+    .course-menu > h1{
+        font-size: 16px;
+    }
+    .courseBox > img {
+        width: 280px;
+    }
+    .course-discription {
+        gap: 35px;
+    }
+    .courseContainer{
+        width: 38vw;
+        justify-content: center;
+    }
+    .courseBox > h1{
+        font-size: 28px;
+    }
+    .courseBox > p{
+        font-size: 14px;
+    }
+    .courseBox{
+        width: 27vw;
+    }
+    .alumniBox > h1{
+        width: 50VW;
+    }
+    .alumniImage > img {
+        margin-bottom: -20px;
+        width: 110px;
+    }
+    .alumniBox {
+        margin: 260px 0px 0px 105px;
+    } 
+    .collegeTour-paragrph > p{
+        font-size: 15px;
+        width: 45vw;
+    } 
+    .collegeTour-box > iframe{
+        width: 300px;
+        height: 17vw;
+        margin-bottom: 100px;
+    } 
+    .collegeTour-box{
+        height: 60vh;
+        padding-left: 0px;
+    }
+    .testimonial-box{
+        gap: 20px;
+    }
+    .testimonialImage > img {
+        width: 20%;
+        height: 70px;
+    }
+    .google{
+        width: 10%;
+    }
+    .testimonial-name > p {
+        width: 30vw;
+    }
+    .swiper-slide > p{
+        height: 12vh;
+    }
+    .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+        display: none;
+    }
+    .learnMore-container{
+        margin-left: 95px;
+    }
+    .moreSqi-items > h1{
+        font-size: 17px;
+    }
+    .learnMore-container > img{
+        width: 25%;
+    }
+    .learnMore-container > img {
+        width: 25%;
+        height: 1200px;
+        margin-bottom: 0px;
+    }
+    .sqi-enquiryContaiter{
+        padding-left: 100px;
+    }
+    .sqi-question > h1{
+        width: 35vw;
+    }
+    .sqi-enquiryContaiter{
+        gap: 60px;
+    }
+    .accordion-body{
+        font-size: 14px;
+    }
+    .accordion {
+        width: 35vw;
+    }
+    .accordion-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+    .joinLink-box {
+        padding: 60px 0px 30px 100px;
+    }
+    .news-header{
+        gap: 29rem;
+    }
+    .news-items > img{
+        width: 100%;
+    }
+    .news-items{
+        width: 25vw;
+    }
+    .news-box{
+        padding-bottom: 130px;
+    }
+    .sqiMedia-link{
+        width: 11%;
+    }
+    .media-icon {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .bothOshogbo-abeokutaContact{
+        width: 13%;
+    }
+    .sqiIbadan-contact{
+        width: 12%;
+    }
+    .sqiOgbomoso-contact{
+        width: 12%;
+    }
+    .sqiQuick-link{
+        width: 13%;
+    }
+    .moveable-backTotop{
+        background-color: #1F67E7;
+        width: 50px;
+        height: 50px;
+        padding: 15px 17px;
+        border-radius: 50px;
+        position: fixed;
+        display: flex;
+        left: 59rem;
+        bottom: 2rem;
+    }
+    .footer-copyright > p{
+        font-size: 16px;
+    }
+    .footer-copyright{
+        height: 9vh;
+    }
+    .footer-copyright > p{
+        padding-left: 100px;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:980px){
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        margin-right: 80px;
+        background-color: #FFFFFF;
+    }
+    .navbar-nav {
+        --bs-nav-link-padding-x: 0;
+        --bs-nav-link-padding-y: 0.5rem;
+        /* --bs-nav-link-font-weight: ; */
+        /* --bs-nav-link-color: var(--bs-navbar-color); */
+        /* --bs-nav-link-hover-color: var(--bs-navbar-hover-color); */
+        --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px !important;
+        margin-bottom: 0;
+        list-style: none;
+        background-color: #FFFFFF;
+        margin-left: 95px;
+        margin-top: -44px;
+        border-top: 3px solid #2ea3f2;
+        position: absolute;
+        left: 0;
+        padding: 5%;
+        background: #fff;
+        width: 80%;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        z-index: 9999; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+        -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    }
+    .nav-item > a {
+        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #5262AC;
+        background-color: #F7F7F7;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        margin-top: 0px;
+        padding-left: 40px;
+        border: none;
+        /* border-top: 3px solid black; */
+        border-radius: 0%;
+        width: 18vw;
+        background-color: #fffefdb2;
+    }
+    .dropdown-toggle::after{
+        display: none !important;
+    }
+    .img{
+        height: 50px;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 40px !important;
+        width: 70vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+    }
+    .learning-page{
+        flex-direction: column;
+    }
+    .learning-paragraph > h1{
+        font-family: 'Prata', Georgia, "Times New Roman", serif;
+        font-weight: 800;
+        font-size: 68px
+    }
+    .learning-page > img {
+        width: 769px;
+        height: 783px;
+        margin-top: -50px;
+    }
+    .learning-paragraph {
+        width: 80vw;
+    }
+    .learnMore-page{
+        margin-left: -45px;
+        margin-top: -50px;
+    }
+    .learnMore-item > img{
+        height: 680px;
+    }
+    .learnMore-menu{
+        flex-direction: column;
+    }
+    .learnMore-item{
+        width: 80vw;
+    }
+    .course-page{
+        flex-direction: column;
+        margin-left: 95px;
+    }
+    .course-menu {
+        width: 80vw;
+    }
+    .course-menu > h1 {
+        font-size: 21px;
+    }
+    .course-discription{
+        flex-direction: column;
+    }
+    .courseBox > img {
+        width: 100%;
+    }
+    .course-discription {
+        gap: 35px;
+    }
+    .firstCourse-discriptionBox > h1{
+        width: 50vw;
+        font-size: 32px;
+    }
+    .courseContainer{
+        width: 80vw;
+        justify-content: center;
+    }
+    .courseBox > h1{
+        font-size: 28px;
+    }
+    .courseBox > p{
+        font-size: 14px;
+    }
+    .courseBox {
+        width: 77vw;
+        margin-top: 20px;
+    }
+    #firstCourse-discriptionBox{
+        margin-top: 90px;
+    }
+    .alumniImage > img {
+        margin-bottom: -80px;
+        width: 250px;
+        height: auto;
+    }
+    .alumniImage{
+        margin: 50px 0px 0px 40px;
+        gap: 100px;
+    } 
+    .collegeTour-box{
+        flex-direction: column;
+        height: 900px;
+        background-size: cover;
+        margin-top: 180px;
+    } 
+    .collegeTour-paragrph > p{
+        font-size: 15px;
+        width: 80vw;
+    } 
+    .collegeTour-box > iframe{
+        width: 80%;
+        height: 30vh;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    } 
+    .collegeTour-paragrph{
+        width: 80%;
+    }
+    .learnMore-container{
+        flex-direction: column;
+        margin-left: -130px;
+    }
+    .moreSqi-items > h1 {
+        font-size: 20px;
+    }
+    .moreSqi-items{
+        width: 100vw;
+    }
+    .learnMore-container > img {
+        margin-left: 260px;
+        width: 65%;
+        height: 50vh;
+        margin-top: 50px;
+    }
+    .sqi-enquiryContaiter{
+        flex-direction: column;
+    }
+    .sqi-question > h1 {
+        width: 80vw;
+        font-size: 30px;
+    }
+    .accordion {
+        width: 80vw;
+    }
+    .accordion {
+        width: 80vw;
+        margin-top: -70px !important;
+    }
+    .accordion-header > button{
+        font-size: 16px;
+    }
+    .accordion-item >.accordion-header .accordion-button.collapsed {
+        padding-left: 0px;
+        background-color: #090326;
+    }
+    .joinLink-box{
+        padding-left: 80px;
+    }
+    .joinLink-box > h1{
+        font-size: 40px;
+    }
+    .joinLink-box > h4{
+        font-size: 18px;
+    }
+    .news-header {
+        gap: 40px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 100px;
+    }
+    .news-items > img{
+        width: 100%;
+    }
+    .news-items {
+        width: 38vw;
+    }
+    .news-box{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 100px;
+    }
+    .newsItems-text{
+        width: 35vw;
+    }
+    .sqiMedia-link{
+        width: 40%;
+    }
+    .bothOshogbo-abeokutaContact{
+        width: 40%;
+    }
+    .sqiIbadan-contact{
+        width: 40%;
+    }
+    .sqiOgbomoso-contact{
+        width: 40%;
+    }
+    .sqiQuick-link{
+        width: 40%;
+    }
+    .sqiAbeokuta-contact, .sqiOsogbo-contact {
+        width: 40vw;
+    }
+    .branchContact-box{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 120px;
+    }
+    .moveable-backTotop{
+        left: 55rem;
+    }
+    .footer-copyright{
+        height: 9vh;
+    }
+    .footer-copyright > p{
+        padding-left: 100px;
+        width: 80vw;
+    }
+}
+@media screen and (min-width: 981px){
+    /* .learning-paragraph > h1{
+        font-family: 'Prata', Georgia, "Times New Roman", serif;
+        font-weight: 800;
+        font-size: 68px
+    } */
+    /* .learning-page > img {
+        max-width: 40%;
+        height: 65vh;
+        margin-top: -50px;
+    } */
+    .learning-paragraph {
+        width: 33vw;
+    }
+    .learnMore-menu{
+        gap: 40px;
+    }
+    .course-page{
+        gap: 53px;
+    }
+    .learnMore-container{
+        margin-left: 120px;
+    }
+    .moreSqi-itemsBox{
+        gap: 25px;
+    }
+    .learnMore-container > img{
+        margin-right:110px;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar-brand{
+        margin-left: 70px;
+    }
+    .navbar-nav{
+        margin-left: 65px;
+    }
+    .learning-page{
+        flex-direction: column;
+    }
+    .learning-paragraph > h1{
+        font-family: 'Prata', Georgia, "Times New Roman", serif;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .learning-paragraph > p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .learning-page > img {
+        max-width: 80%;
+        height: 70vh;
+        margin-top: -50px;
+    }
+    .learning-paragraph {
+        width: 80vw;
+    }
+    .learnMore-page{
+        margin-left: -65px;
+        margin-top: 50px;
+    }
+    .learnMore-item > img{
+        height: 680px;
+    }
+    .learnMore-menu{
+        flex-direction: column;
+    }
+    .learnMore-item{
+        width: 80vw;
+    }
+    .course-page{
+        margin-left: 76px;
+    }
+    .course-details > div > p{
+        font-size: 14px;
+    }
+    .courseBox > img {
+        width: 100%;
+    }
+    .courseBox{
+        margin-top: 30px;
+        width: 68vw;
+        margin-left: -20px;
+    }
+    .courseBox > h1{
+        margin-top: 30px;
+    }
+    .alumniImage{
+        margin-left: 20px;
+        gap: 90px;
+        margin-bottom: -40px;
+    }
+    .alumniImage > img{
+        width: 180px;
+    }
+    .alumniBox > h1 {
+        width: 42VW;
+    }
+    .alumniBox {
+        margin: 150px 0px 0px 75px;
+    }
+    .collegeTour-box > iframe{
+        margin-top: 0px;
+    }
+    .collegeTour-box{
+        height: 800px;
+    }
+    .collegeTour-paragrph > h1{
+        font-size: 35px;
+    }
+    .testimonial-container > a{
+        width: 30vw;
+    }
+    .testimonialImage > img {
+        width: 20%;
+        height: 40px;
+    }
+    .star-rating{
+        font-size: 20px;
+    }
+    .testimonialImage .google{
+        margin-left: 150px;
+        height: -80px;
+    }
+    .testimonial-container {
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .testimonial-box{
+        margin-left: 80px;
+    }
+    .college-rate > a{
+        font-size: 12px;
+        width: 20vw;
+    }
+    .star-number{
+        font-size: 21px;
+    }
+    .full-star{
+        font-size: 22px;
+    }
+    .collegeRate-button{
+        padding: 0px 14px;
+        width: 21vw;
+    }
+    .testimonial{
+        width: 70vw;
+    }
+    .swiper-slide > p {
+        width: 26vw;
+        height: 16vh;
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+    .swiper-wrapper {
+        gap: 50px !important;
+        width: 50%;
+        width: 23vw !important;
+        scroll-behavior: auto;
+    }
+    .learnMore-container{
+        margin-left: -160px;
+    }
+    .moreSqi-items > p{
+        font-size: 12px;
+        width: 70vw;
+    }
+    .moreSqi-itemsBox{
+        gap: 0px;
+    }
+    .learnMore-container > img{
+        width: 60%;
+        height: 50vh;
+        margin-left: 240px;
+    }
+    .moreSqi-detailsBox > h1{
+        font-size: 30px;
+    }
+    .accordion-item{
+        justify-content: flex-start !important;
+    }
+    .sqi-enquiryContaiter{
+        padding-left: 80px;
+    }
+    .joinLink-box > h1 {
+        font-size: 38px;
+    }
+    .joinLink-box > p{
+        width: 43vw;
+    }
+    .news-header > h2{
+        font-size: 30px;
+    }
+    .news-header{
+        gap: 0px;
+    }
+    .news-box{
+        margin-left: 75px;
+    }
+    .news-header {
+        gap: 0px;
+        margin-left: 75px;
+    }
+    .news-items {
+        width: 38vw;
+        margin-bottom: -60px;
+    }
+    .branchContact-box{
+        margin-left: 100px;
+    }
+    .moveable-backTotop{
+        left: 43rem;
+    }
+    .footer-copyright{
+        height: 11vh;
+    }
+    .footer-copyright > p{
+        padding-left: 80px;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:430px){
+    .img {
+        height: 50px;
+        margin-left: -25px;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        margin-left: 95px !important;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        gap: 0px;
+    }
+    .learning-page > img{
+        max-width: 80%;
+        height: 60vh;
+        margin-top: -50px;
+    }
+    .learning-paragraph > h1{
+        line-height: 40px;
+    }
+    .learnMore-page{
+        margin-left: -98px;
+    }
+    .learnMore-page > h1{
+        font-size: 34px;
+    }
+    .learnMore-item > img{
+        height: 350px;
+    }
+    .course-page{
+        margin-left: 40px;
+    }
+    .course-details > div > p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .course-menu > h1{
+        font-size: 16px;
+    }
+    .courseBox{
+        margin-left: 10px;
+    }
+    .firstCourse-discriptionBox > h1 {
+        font-size: 20px;
+    }
+    .firstCourse-discriptionBox > p {
+        font-size: 14px;
+    }
+    .secondCourse-discriptionBox{
+        margin-top: 0px;
+    }
+    #firstCourse-discriptionBox{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .alumniBox > h1 {
+        width: 50VW;
+        font-size: 21px;
+    }
+    .testimonial-box {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .college-rate > a {
+        font-size: 14px;
+        font-weight: 700;
+        width: 20vw;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .swiper-wrapper{
+        width: 60vw !important;
+        margin-top: 50px;
+    }
+    .collegeRate-button {
+        padding: 0px 14px;
+        width: 39vw;
+        height: 30px;
+    }
+    .swiper-slide{
+        width: 50vw !important;
+    }
+    .swiper-backface-hidden .swiper-slide {
+        width: 80vw !important;
+        margin-left: 60px;
+    }
+    .swiper-slide > p {
+        width: 60vw;
+        height: 16vh;
+        margin-bottom: 40px;
+        padding-right: 0px;
+        scroll-behavior: smooth;
+    }
+    .testimonialImage .google {
+        margin-left: -20px;
+        height: -80px;
+        width: 50px;
+    }
+    .alumniImage > img {
+        width: 250px;
+    }
+    .alumniImage{
+        margin-left: -30px;
+    }
+    .alumniBox{
+        margin-left: 55px;
+    }
+    .collegeTour-box > iframe{
+        height: 25%;
+        margin-top: -80px;
+    }
+    .collegeTour-box {
+        height: 700px;
+    }
+    .collegeTour-paragrph > h1 {
+        font-size: 28px;
+    }
+    .collegeTour-paragrph{
+        margin-top: -50px;
+    }
+    .learnMore-container{
+        margin-left: -40px;
+    }
+    .moreSqi-detailsBox > h1 {
+        font-size: 19px;
+    }
+    .moreSqi-items > h1 {
+        font-size: 16px;
+    }
+    .learnMore-container > img {
+        width: 65%;
+        height: 30vh;
+        margin-left: 190px;
+    }
+    .sqi-enquiryContaiter {
+        padding-left: 45px;
+    }
+    .sqi-question > h1{
+        font-size: 18px;
+    }
+    .sqi-question > h2{
+        font-size: 14px;
+    }
+    .accordion-header > button{
+        font-size: 16px;
+    }
+    .accordion-body {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .sqi-question > a{
+        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 94px;
+        text-decoration: none;
+        color: rgb(208, 167, 63);
+        position: relative;
+    }
+    .sqi-question > a::after{
+        content: "";
+        display: inline-block;
+        width: 90px;
+        height: 2px;
+        background-color: rgb(208, 167, 63);
+        position: relative;
+        top: 17px;
+        right: 90px;
+    }
+    .joinLink-box > h1 {
+        font-size: 25px;
+    }
+    .joinLink-box {
+        padding-left: 40px;
+    }
+    .joinLink-box > p {
+        width: 85vw;
+        margin-top: 0px;
+    }
+    .joinLink-box > h4{
+        width: 80vw;
+    }
+    .news-items{
+        width: 80vw;
+        margin-bottom: 0px;
+    }
+    .news-box{
+        margin-left: 43px;
+    }
+    .news-header {
+        margin-left: 43px;
+    }
+    .newsItems-text {
+        width: 75vw;
+    }
+    .sqiMedia-link{
+        width: 80%;
+    }
+    .bothOshogbo-abeokutaContact{
+        width: 80%;
+    }
+    .sqiIbadan-contact{
+        width: 80%;
+    }
+    .sqiOgbomoso-contact{
+        width: 80%;
+    }
+    .sqiQuick-link{
+        width: 80%;
+    }
+    .sqiAbeokuta-contact, .sqiOsogbo-contact {
+        width: 80vw;
+    }
+    .branchContact-box {
+        margin-left: 65px;
+    }
+    .moveable-backTotop{
+        left: 21.5rem;
+    }
+    .footer-copyright{
+        height: 15vh;
+    }
+    .footer-copyright > p{
+        padding-left: 65px;
+        font-size: 14px;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:375px){
+    .learning-page > img{
+        max-width: 80%;
+        height: 70vh;
+        margin-top: -50px;
+    }
+    .learning-paragraph > h1{
+        line-height: 40px;
+    }
+    .learnMore-page{
+        margin-left: -100px;
+    }
+    .learnMore-page > h1{
+        font-size: 38px;
+        line-height: 39px;
+    }
+    .learnMore-item > img{
+        height: 350px;
+    }
+    .learnMore-item > h1{
+        font-size: 16px;
+    }
+    .course-page{
+        margin-left: 40px;
+    }
+    .course-details > div > p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .course-menu > h1{
+        font-size: 16px;
+    }
+    .testimonial-container > h1{
+        font-size: 30px;
+    }
+    .firstCourse-discriptionBox > h1 {
+        font-size: 16px;
+    }
+    .course-discription {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .firstCourse-discriptionBox > p {
+        font-size: 12px;
+    }
+    .courseBox{
+        margin-left: 0px;
+    }
+    .collegeTour-box > iframe{
+        height: 25%;
+        margin-top: 0px;
+    }
+    .collegeTour-paragrph > p{
+        font-size: 14px;
+    }
+    .collegeTour-box {
+        height: 700px;
+    }
+    .collegeRate-button{
+        width: 47vw;
+    }
+    .college-rate{
+        margin-right: 50px;
+    }
+    .collegeTour-paragrph > h1 {
+        font-size: 28px;
+    }
+    .collegeTour-paragrph{
+        margin-top: -50px;
+    }
+    .sqi-enquiryContaiter {
+        padding-left: 35px;
+    }
+    .sqi-question > a{
+        line-height: 60px;
+    }
+    .news-box{
+        margin-left: 35px;
+    }
+    .news-header {
+        margin-left: 35px;
+    }
+    .moveable-backTotop{
+        left: 18rem;
+    }
+    .footer-copyright{
+        height: 15vh;
+    }
+    .footer-copyright > p{
+        padding-left: 35px;
+        font-size: 14px;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:320px){
+    .img {
+        height: 50px;
+        margin-left: -50px;
+    }
+    .learning-page > img{
+        max-width: 80%;
+        height: 40vh;
+        margin-top: -50px;
+    }
+    .learning-paragraph > h1{
+        line-height: 40px;
+    }
+    .testimonial-container {
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+    .testimonial-container > h1{
+        font-size: 29px;
+    }
+    .learnMore-page{
+        margin-left: -110px;
+    }
+    .learnMore-page > h1{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .learnMore-item > img{
+        height: 350px;
+    }
+    .learnMore-item > h1{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .course-page{
+        margin-left: 32px;
+    }
+    .course-details > div > p{
+        font-size: 14px;
+    }
+    .course-menu > h1{
+        font-size: 16px;
+    }
+    .firstCourse-discriptionBox > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .course-discription{
+        margin-left: 30px;
+    }
+    .firstCourse-discriptionBox > h1 {
+        font-size: 18px;
+    }
+    .secondCourse-discriptionBox{
+        margin-left: -30px;
+    }
+    .alumniBox > h1 {
+        width: 70VW;
+        font-size: 17px;
+    }
+    .alumniImage {
+        margin-left: -50px;
+    }
+    .sqi-question > h1 {
+        font-size: 22px;
+        width: 70vw;
+        line-height: 22px;
+    }
+    .joinLink-box > h1 {
+        font-size: 25px;
+        width: 70vw;
+        line-height: 30px;
+    }
+    .joinLink-box > p {
+        width: 82vw;
+        margin-top: 30px;
+    }
+    .branchContact-box {
+        margin-left: 55px;
+    }
+    .moveable-backTotop {
+        left: 15rem;
+    }
+    .footer-copyright{
+        height: 15vh;
+    }
+    .footer-copyright > p{
+        padding-left: 35px;
+        font-size: 14px;
+        width: 80vw;
+    }
+}
